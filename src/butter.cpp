@@ -165,7 +165,7 @@ public: // Public Members
 
     Butterworth filter_x, filter_y, filter_z;
 
-    std::string csv_path = "/home/bluesky/catkin_ws/src/anafi_ros/src/repo/pursuit/pursuit_on_pnp_11_11_15_27/csv/pursuit_data.csv";
+    std::string csv_path = "data.csv";
     std::vector<std::vector<std::string>> csv_data;
 
     FilterAnalysis()
